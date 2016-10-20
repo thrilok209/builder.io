@@ -5,7 +5,8 @@ body {
   background-color: #A18BCC;
   color: #FFF;
   text-align: center;
-  padding-top: 3em; }
+  padding: 3em;
+  padding-bottom: 0; }
   #landing nav a {
     color: #fff;
     text-decoration: none;
@@ -30,11 +31,30 @@ body {
     padding: 1em; }
   #landing .img-container {
     position: relative; }
+    #landing .img-container img {
+      margin-top: 5em; }
     #landing .img-container .captions {
       position: absolute;
       bottom: 2em;
-      left: 2em; }
-    #landing .img-container img {
-      margin-top: 5em; }
+      left: 2em;
+      text-align: left; }
+      #landing .img-container .captions .title {
+        font-size: 1.5em;
+        margin-bottom: 0;
+        font-weight: bold; }
+    #landing .img-container .likes {
+      position: absolute;
+      bottom: 2em;
+      right: 1em;
+      font-size: 1.8em; }
+      #landing .img-container .likes i {
+        margin-right: 1em; }
+    #landing .img-container .edit {
+      position: absolute;
+      top: 2em;
+      right: 1em;
+      font-size: 2em;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 0.3em; }
 
 /*# sourceMappingURL=styles.css.map */
