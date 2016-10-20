@@ -98,5 +98,23 @@ body {
   background-image: url("../img/slanted-phone.jpg");
   background-repeat: no-repeat;
   background-position: bottom center; }
+  #features .create {
+    padding: 1em 3em; }
+
+#take-look {
+  text-align: center;
+  background-color: #A18BCC;
+  padding: 3em 0;
+  color: #fff; }
+  #take-look .take {
+    background-color: #4BD9DD;
+    padding: 1em 3em;
+    margin-right: 1em;
+    margin-top: 2em; }
+  #take-look .free {
+    border: 2px solid #fff;
+    padding: 1em 3em;
+    color: #fff;
+    margin-top: 2em; }
 
 /*# sourceMappingURL=styles.css.map */
