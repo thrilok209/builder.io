@@ -1,9 +1,30 @@
 body {
-  font-family: 'Sintony', sans-serif; }
+  font-family: 'Sintony', sans-serif;
+  color: #c0c4c7; }
+
+.btn-solid {
+  background-color: #A18BCC;
+  color: #fff;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1em; }
+  .btn-solid:hover {
+    color: #fff; }
+
+.btn-outline {
+  color: #c0c4c7;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1em;
+  border: 2px solid #c0c4c7; }
+  .btn-outline:hover {
+    color: #fff; }
 
 #landing {
   background-color: #A18BCC;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   padding: 3em;
   padding-bottom: 0; }
@@ -56,5 +77,26 @@ body {
       font-size: 2em;
       background-color: rgba(0, 0, 0, 0.5);
       padding: 0.3em; }
+
+#intro {
+  text-align: center;
+  padding: 2em 0; }
+  #intro .get-started {
+    background-color: #A18BCC;
+    padding: 1em 3em; }
+  #intro .demo {
+    padding: 1em 3em;
+    margin-left: 1em; }
+  #intro h2 {
+    margin: 2em 0 0.7em; }
+  #intro p {
+    font-size: 1.2em; }
+
+#features {
+  background-color: #f7f7f5;
+  padding: 5em 0 14em 0;
+  background-image: url("../img/slanted-phone.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom center; }
 
 /*# sourceMappingURL=styles.css.map */
