@@ -1,12 +1,12 @@
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Sintony', sans-serif;
 }
 
 #landing{
   background-color: #A18BCC;
   color: #FFF;
   text-align: center;
-  padding:3em 0;
+  padding-top: 3em ;
 
   nav a{
     color:#fff;
@@ -27,7 +27,7 @@ body{
     font-size: 4em;
     margin-top: 2em;
   }
-  p{
+  p.tagline{
    font-size: 1.3em;
    margin: 1em 0;
   }
@@ -39,6 +39,20 @@ body{
     font-weight: bold;
     width: 12em;
     padding: 1em;
+  }
+  .img-container{
+    position: relative;
+    .captions{
+      position: absolute;
+      bottom: 2em;
+      left: 2em;
+    }
+    img{
+      margin-top: 5em;
+
+
+    }
+
   }
 
 }

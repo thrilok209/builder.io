@@ -1,11 +1,11 @@
 body {
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Sintony', sans-serif; }
 
 #landing {
   background-color: #A18BCC;
   color: #FFF;
   text-align: center;
-  padding: 3em 0; }
+  padding-top: 3em; }
   #landing nav a {
     color: #fff;
     text-decoration: none;
@@ -17,7 +17,7 @@ body {
   #landing h1 {
     font-size: 4em;
     margin-top: 2em; }
-  #landing p {
+  #landing p.tagline {
     font-size: 1.3em;
     margin: 1em 0; }
   #landing a.action {
@@ -28,5 +28,13 @@ body {
     font-weight: bold;
     width: 12em;
     padding: 1em; }
+  #landing .img-container {
+    position: relative; }
+    #landing .img-container .captions {
+      position: absolute;
+      bottom: 2em;
+      left: 2em; }
+    #landing .img-container img {
+      margin-top: 5em; }
 
 /*# sourceMappingURL=styles.css.map */
