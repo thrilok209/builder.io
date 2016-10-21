@@ -129,4 +129,74 @@ body {
     color: #fff;
     transform: translate(-50%, -50%); }
 
+#com {
+  text-align: center;
+  padding: 5em 0;
+  color: #c0c4c7;
+  background-color: #F7F7F5; }
+  #com i {
+    font-size: 3em;
+    color: #A18BCC; }
+  #com a {
+    color: #A18BCC;
+    font-weight: bold; }
+
+#pricing {
+  text-align: center;
+  padding: 4em 0; }
+  #pricing h2 {
+    text-transform: uppercase; }
+  #pricing h2, #pricing p.cap {
+    color: #A18BCC; }
+  #pricing p.cap {
+    font-weight: bold;
+    margin: 2em; }
+  #pricing .price-opt {
+    border: 2px solid #c0c4c7;
+    border-radius: 15px;
+    height: 44em;
+    position: relative; }
+    #pricing .price-opt h3 {
+      background-color: #A18BCC;
+      color: #fff;
+      margin: 0;
+      padding: 0.6em;
+      text-transform: uppercase;
+      border-radius: 10px 10px 0 0; }
+    #pricing .price-opt p.dis {
+      font-weight: bold;
+      margin: 2em 3em 1em; }
+    #pricing .price-opt p.price {
+      color: #4BD9DD;
+      font-size: 2.7em; }
+      #pricing .price-opt p.price span {
+        color: #c0c4c7;
+        font-size: 0.5em;
+        position: relative;
+        top: 0.35em;
+        font-weight: bold; }
+    #pricing .price-opt .reason {
+      border-top: 2px solid #e9eaeb;
+      padding: 1em;
+      margin: 0 2em;
+      font-weight: bold; }
+    #pricing .price-opt a.signup {
+      margin: 0 2em;
+      position: absolute;
+      bottom: 1em;
+      left: 2em;
+      right: 3em; }
+      #pricing .price-opt a.signupbtn-outline {
+        color: #A18BCC;
+        background-color: #A18BCC; }
+  #pricing .user-count {
+    color: #A18BCC;
+    margin-top: 1em;
+    font-size: 1.2em; }
+    #pricing .user-count span {
+      font-size: 1.3em;
+      font-weight: bold;
+      position: relative;
+      top: 0.09em; }
+
 /*# sourceMappingURL=styles.css.map */
